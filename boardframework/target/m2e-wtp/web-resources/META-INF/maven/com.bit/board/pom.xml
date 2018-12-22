@@ -35,11 +35,14 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${org.springframework-version}</version>
 		</dependency>
+<<<<<<< HEAD
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jdbc</artifactId>
 			<version>${org.springframework-version}</version>
 		</dependency>
+=======
+>>>>>>> bc47978aa211d79907ae1f647d7d6bfbc442f2c0
 				
 		<!-- AspectJ -->
 		<dependency>
@@ -99,6 +102,10 @@
 		</dependency>
 				
 		<!-- Servlet -->
+<<<<<<< HEAD
+=======
+	
+>>>>>>> bc47978aa211d79907ae1f647d7d6bfbc442f2c0
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>jstl</artifactId>
@@ -111,6 +118,7 @@
 			<artifactId>junit</artifactId>
 			<version>4.7</version>
 			<scope>test</scope>
+<<<<<<< HEAD
 		</dependency>      
 		
 		<!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
@@ -129,6 +137,26 @@
 		  
 	</dependencies>
     <build>
+=======
+		</dependency>        
+		
+	<!-- https://mvnrepository.com/artifact/org.mybatis/mybatis -->
+<dependency>
+    <groupId>org.mybatis</groupId>
+    <artifactId>mybatis</artifactId>
+    <version>${mybatis.version}</version>
+</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.mybatis/mybatis-spring -->
+<dependency>
+    <groupId>org.mybatis</groupId>
+    <artifactId>mybatis-spring</artifactId>
+    <version>${mybatis-spring.version}</version>
+</dependency>
+	</dependencies>
+	
+   <build>
+>>>>>>> bc47978aa211d79907ae1f647d7d6bfbc442f2c0
         <plugins>
             <plugin>
                 <artifactId>maven-eclipse-plugin</artifactId>
